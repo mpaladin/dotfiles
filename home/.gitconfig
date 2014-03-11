@@ -1,0 +1,40 @@
+[user]
+  name = Massimo Paladin
+  email = massimo.paladin@gmail.com
+
+[github]
+  user = mpaladin
+
+[push]
+  default = simple
+[pull]
+  rebase = true
+
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  br = branch
+
+  ls-ignored = ls-files --exclude-standard --ignored --others
+
+  amend = !git commit --amend --reuse-message=HEAD --date=\"$(date -R)\"
+  ammend = !git amend
+
+  # stage
+  sf = stage -u .
+
+  # diff
+  dc = diff --cached
+  wd = diff --word-diff=color
+  wdc = diff --word-diff=color --staged
+
+  # log
+  l = log --oneline
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  changes = log --pretty=format:'%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --date=relative --name-status
+  out = log @{u}..
+
+  # reset
+  unstage = reset HEAD
+
