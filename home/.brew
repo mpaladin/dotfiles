@@ -58,6 +58,7 @@ install wget
 # cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew tap phinze/homebrew-cask
+brew tap caskroom/versions
 install brew-cask
 
 cask_install alfred
@@ -67,6 +68,7 @@ cask_install appcleaner
 cask_install flash
 cask_install google-drive
 cask_install google-chrome
+cask_install google-hangouts
 cask_install intellij-idea
 cask_install istat-menus
 cask_install iterm2
@@ -75,6 +77,7 @@ cask_install spotify
 cask_install teamviewer
 cask_install textmate
 cask_install the-unarchiver
+cask_install tunnelblick-beta
 cask_install virtualbox
 cask_install vlc
 
