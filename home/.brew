@@ -79,7 +79,13 @@ cask_install teamviewer
 cask_install textmate
 cask_install the-unarchiver
 cask_install tunnelblick-beta
+
+# vagrant
 cask_install vagrant
+vagrant plugin install vagrant-box-updater
+vagrant plugin install vagrant-vbox-snapshot
+vagrant plugin install vagrant-windows
+
 cask_install virtualbox
 cask_install vlc
 
