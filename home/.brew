@@ -78,7 +78,6 @@ cask_install spotify
 cask_install teamviewer
 cask_install textmate
 cask_install the-unarchiver
-cask_install tunnelblick-beta
 
 # vagrant
 cask_install vagrant
