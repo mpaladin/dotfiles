@@ -69,6 +69,7 @@ cask_install flash
 cask_install google-drive
 cask_install google-chrome
 cask_install google-hangouts
+cask_install hex-fiend
 cask_install hipchat
 cask_install intellij-idea
 cask_install istat-menus
