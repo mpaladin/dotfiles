@@ -65,6 +65,7 @@ cask_install alfred
 brew cask alfred link
 
 cask_install appcleaner
+cask_install atom
 cask_install flash
 cask_install google-drive
 cask_install google-chrome
