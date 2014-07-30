@@ -42,6 +42,8 @@ install coreutils
 install bash
 install bash-completion
 
+install cmake
+
 install colordiff
 install dwdiff
 install gawk
@@ -67,7 +69,6 @@ brew cask alfred link
 cask_install appcleaner
 cask_install atom
 cask_install flash
-cask_install google-drive
 cask_install google-chrome
 cask_install google-hangouts
 cask_install hex-fiend
@@ -101,6 +102,7 @@ cask_install firefox
 cask_install flip4mac
 cask_install handbrake
 cask_install iterm2
+cask_install google-drive
 cask_install google-music
 cask_install musicmanager
 cask_install perian
