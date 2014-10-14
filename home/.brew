@@ -50,6 +50,7 @@ install gawk
 install maven
 
 install git
+install hub
 install mercurial
 install subversion
 
