@@ -1,0 +1,19 @@
+#! /bin/sh
+
+NAME=${1:-default}
+PATH=/Volumes/${NAME}
+
+# 512MB
+#SIZE=1048576
+# 1GB
+SIZE=2097152
+# 4GB
+#SIZE=8388608
+
+[ -e "${PATH}" ] && echo "${PATH} already exists" && exit 1
+
+/usr/sbin/diskutil erasevolume HFS+ "${NAME}" `/usr/bin/hdiutil attach -nomount ram://${SIZE}`
+
+[ -e "${PATH}" ] && echo "${PATH} created" && exit 0
+echo "${PATH} could not be created" && exit 1
+
