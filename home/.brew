@@ -75,7 +75,7 @@ cask_install google-hangouts
 cask_install hex-fiend
 cask_install hipchat
 cask_install intellij-idea
-cask_install istat-menus4
+cask_install istat-menus
 cask_install iterm2
 cask_install spotify
 cask_install teamviewer
