@@ -78,8 +78,8 @@ cask_install intellij-idea
 cask_install istat-menus
 cask_install iterm2
 cask_install spotify
+cask_install sublime-text
 cask_install teamviewer
-cask_install textmate
 cask_install the-unarchiver
 
 # vagrant
