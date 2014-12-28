@@ -101,14 +101,13 @@ cask_install cyberduck
 cask_install dropbox
 cask_install evernote
 cask_install firefox
-cask_install flip4mac
+#cask_install flip4mac
 cask_install handbrake
 cask_install iterm2
 cask_install google-drive
-cask_install google-music
-cask_install musicmanager
-cask_install perian
-cask_install pycharm
+cask_install music-manager
+#cask_install perian
+cask_install pycharm-ce
 cask_install skype
 cask_install transmission
 fi
