@@ -60,15 +60,15 @@ install wget
 
 # cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew tap phinze/homebrew-cask
+brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
-install brew-cask
 
 cask_install alfred
 brew cask alfred link
 
 cask_install appcleaner
 cask_install atom
+cask_install dropbox
 cask_install flash
 cask_install google-chrome
 cask_install google-hangouts
@@ -98,7 +98,6 @@ cask_install arduino
 cask_install calibre
 cask_install ccleaner
 cask_install cyberduck
-cask_install dropbox
 cask_install evernote
 cask_install firefox
 #cask_install flip4mac
