@@ -10,8 +10,8 @@
 [pull]
   rebase = true
 
-[status]
-  showUntrackedFiles = all
+#[status]
+#  showUntrackedFiles = all
 
 [rerere]
 # remember conflict resolution

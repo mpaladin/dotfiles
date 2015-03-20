@@ -67,8 +67,8 @@ cask_install alfred
 brew cask alfred link
 
 cask_install appcleaner
-cask_install atom
 cask_install dropbox
+cask_install firefox
 cask_install flash
 cask_install google-chrome
 cask_install google-hangouts
@@ -86,7 +86,6 @@ cask_install the-unarchiver
 cask_install vagrant
 vagrant plugin install vagrant-box-updater
 vagrant plugin install vagrant-vbox-snapshot
-vagrant plugin install vagrant-windows
 
 cask_install virtualbox
 cask_install visualvm
@@ -99,13 +98,10 @@ cask_install calibre
 cask_install ccleaner
 cask_install cyberduck
 cask_install evernote
-cask_install firefox
-#cask_install flip4mac
 cask_install handbrake
 cask_install iterm2
 cask_install google-drive
 cask_install music-manager
-#cask_install perian
 cask_install pycharm-ce
 cask_install skype
 cask_install transmission
