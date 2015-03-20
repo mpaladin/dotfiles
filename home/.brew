@@ -64,8 +64,6 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 cask_install alfred
-brew cask alfred link
-
 cask_install appcleaner
 cask_install dropbox
 cask_install firefox
